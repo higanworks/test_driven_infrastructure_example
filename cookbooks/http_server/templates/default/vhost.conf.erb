@@ -1,0 +1,11 @@
+server {
+  listen 80;
+  server_name <%= @server_name %>;
+  root <%= @vhost_root %>;
+  index index.html;
+
+  location / {
+    try_files $uri $uri/ =404;
+  }
+}
+

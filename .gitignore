@@ -1,0 +1,4 @@
+*.swp
+Gemfile.lock
+chef.log
+tmp_chef/
